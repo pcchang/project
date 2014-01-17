@@ -1,0 +1,1 @@
+var my_canvas = document.getElementById("canvas");var context = my_canvas.getContext("2d");context.beginPath();context.fillStyle = "Coral"; context.arc(75,75,28,0,2*Math.PI);context.fill();context.fillStyle = "mediumPurple";context.fillRect(10, 10, 50, 20);context.fillStyle = "limeGreen";context.font = "28px Papyrus";context.fillText("Moo", 100, 28);
